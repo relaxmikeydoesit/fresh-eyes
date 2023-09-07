@@ -1,0 +1,105 @@
+.placeholder-nav {
+    width: 980px;
+    height: 230px;
+    // background-color: crimson;
+
+}
+
+.title {
+    color: black;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.line {
+    width: 225px;
+    height: 2px;
+    color: #000000;
+    border-bottom: #000000 2px solid;
+    margin-bottom: 38px;
+}
+.about-text p {
+    // background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    color: #000000;
+    margin-bottom: 95px;
+}
+
+.client-quotes {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.line {
+    width: 252px;
+    height: 2px;
+    margin-bottom: 37px;
+}
+
+.client {
+    width: 722px;
+    min-height: 150px;
+    margin-bottom: 37px;
+    display: flex;
+
+    .left-top {
+        
+        width: 260px;
+        height: 150px;
+        
+    }
+    .left-bottom {
+        width: 260px;
+        height: 150px;
+        // background-image: url(../images/about-client-02.png);
+    }
+    .right-about-text {
+        width: 305px;
+        height: 102px;
+        font-style: italic;
+        color: #000000;
+        margin-left: 12px;
+        position: relative;
+        }
+    
+        span {
+            position: absolute;
+            color: #79ADDC;
+            margin-left: 484px;
+            margin-top: 140px;
+            
+        }
+   #johnathon {
+    margin-bottom: 179px;
+   }
+}
+
+    footer {
+        margin: 0 auto;
+    }    
+
+    @media only screen and (max-width: 830px) { 
+     
+        .about-text p {
+            max-width: 500px;
+            margin-bottom: 10px;
+        }
+        .client {
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        span {
+            display: block;
+            margin:10px 0 0 270px; 
+               }
+        }
+    }
+
+    footer {
+        margin-top: auto;
+        min-width: 600px;
+    }

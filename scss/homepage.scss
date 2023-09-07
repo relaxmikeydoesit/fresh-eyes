@@ -1,0 +1,147 @@
+.hero-home-top {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/hero-bg-home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .heading-home-hero {
+        font-size: 60px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        font-style: italic;
+    }
+    .sub-home-hero {
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #ffffff;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 46px;
+    }
+
+    .button-hero-readmore {
+        width: 121px;
+        height: 40px;
+        background-color: #79addc;
+        text-align: center;
+        padding: 10px;
+        color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+//trip wrapper, column, and z index //
+
+
+
+.tripsContainer {
+    width: 818px;
+    min-height: 304px; 
+        // background-color: aqua;
+    margin: 0 auto;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .trips-index {
+        width: 236px;
+        height: 304px;
+        background-color: red;
+    }
+}
+    .ti-1 {
+        background-image: url(../images/1israel.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .ti-2 {
+        background-image: url(../images/2usa.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .ti-3 {
+        background-image: url(../images/3aus.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .ti-overlay {
+        width: 236px;
+        height: 304px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        
+        .ti-trip-name {
+            font-size: 50px;
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #ffffff;
+            margin-top: 37px;
+            text-align: center;
+            
+            }
+    
+        .ti-trip-price {
+            color: #ffffff;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: -87px;
+        }
+        .ti-button {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #79addc;
+            width: 133px;
+            height: 40px;
+            text-align: center;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 56px;
+             }      
+        }
+    
+
+     .footer {
+    width: 1280px;
+    height: 100px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+
+     .hero-home-top {  
+        width: 100vw;
+        margin-bottom: 10px;
+
+            .trips-container {
+                justify-content: space-evenly;
+                flex-direction: column;            
+                align-items: center;
+                justify-content: space-between;
+          
+            .trips-index {
+          
+                height: auto;
+
+                margin-bottom: 88px;
+            }
+        
+        }
+        }
+        }
